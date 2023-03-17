@@ -22,7 +22,7 @@ mod tests {
 
     #[test]
     fn it_works_sub() {
-        let result = sub(1, 2);
+        let result = sub(2, 2);
         assert_eq!(result, 0);
     }
     #[test]
