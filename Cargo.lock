@@ -5,3 +5,12 @@ version = 3
 [[package]]
 name = "rust"
 version = "0.1.0"
+dependencies = [
+ "skeletor",
+]
+
+[[package]]
+name = "skeletor"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3ce98bf890b5faace78c16a3ff41b9d68f944d6f477737419ce09f857c8d698f"
