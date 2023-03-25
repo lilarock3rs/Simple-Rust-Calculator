@@ -32,7 +32,7 @@ mod tests {
     }
     #[test]
     fn it_works_div() {
-        let result = div(2, 3);
+        let result = div(2, 2);
         assert_eq!(result, 1);
     }
 }
